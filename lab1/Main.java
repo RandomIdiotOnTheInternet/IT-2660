@@ -23,8 +23,8 @@ public class Main {
       System.out.println(labArray[i]);
     }
 
-    System.out.println("First: " + labArray[0]);
-    System.out.println("Last: " + labArray[labArray.length - 1]);
+    System.out.println("First value of lab array: " + labArray[0]);
+    System.out.println("Last value of lab array: " + labArray[labArray.length - 1]);
 
     System.out.println("Max of 2 and 5: " + lab.max(2, 5));
     System.out.println("Min of 2 and 5: " + lab.min(2, 5));
