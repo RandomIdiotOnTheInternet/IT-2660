@@ -32,7 +32,7 @@ class Main {
     // Step 8
     System.out.println("After removing IT-1150 and IT-2030:");
     for (MyMap.Entry<String, Integer> entry : creditHours.entrySet()) {
-      System.out.println(entry.getKey() + ": " + entry.getValue());
+      System.out.println(entry.getValue());
     }
   }
 }
